@@ -1,2 +1,2 @@
 # WEBD-2018-2019
-Implementing a monopoly web application
+Website project for "Web Design", 11th grade 2019
