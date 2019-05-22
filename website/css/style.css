@@ -1,0 +1,132 @@
+body{
+	font-family:sans-serif;
+	font-size: 15px;
+	line-height: 2;
+	padding: 0;
+	margin: 0;
+	background-color: #cccccc;
+}
+
+/* Global */
+.container{
+	width:80%;
+	margin: auto;
+	overflow:hidden;	
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+.button_1{
+	height:25px;
+	background-color: #e8491d;
+	border:none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size: 16px; 
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding-right: 20px;
+	padding-left: 20px; 
+}
+
+header #logo {
+	float: left;
+}
+
+header #logo h1{
+	margin:0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight: bold;
+}
+
+#mainframe {
+	min-height: 550px;
+	background-image:url('../img/georgi2.jpg');
+	background-size: cover;
+	background-position:0 -850px;
+	background-repeat: no-repeat;
+	text-align: center;	
+	color: #ffffff;
+}
+
+#mainframe h1 {
+	margin-top: 200px;
+	font-size:45px;
+	margin-bottom: 10px;
+}
+
+#mainframe p {
+	font-size: 20px;
+}
+
+#audio_book{
+	padding: 15px;
+	background-color:#35424a;
+}
+
+#audio_book h1 {
+	float: left;
+	color: #ffffff;
+}
+
+#audio_book form {
+	float: right;
+	margin-top: 26px;
+}
+
+article#main-col {
+	float: left;
+	width: 60%;
+}
+
+aside#sidebar{
+	float:right;
+	width: 30%;
+	margin-top: 10px;
+	padding: 15px;
+	background-color: #35424a;
+	color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+footer {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	padding: 5px;
+	background-color: #e8491d;
+	text-align: center;
+}
+
+
